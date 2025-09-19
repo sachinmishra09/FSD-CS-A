@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <style>
+        #logo{
+            display: flex;
+        }
+        #item {
+            font-size: 2rem;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <div style="width:100px; margin:10px"><h1>LOGO</h1></div>
+        <div style="width:200px; margin:10px"><h1>COUNTER APP</h1></div>
+    </div>
+    <div id="item">0</div>
+    <button onclick="increment()"><h1>+</h1></button>
+    <button onclick="decrement()"><h1>-</h1></button>
+
+    <script>
+        function increment(){
+            let c = parseInt(document.getElementById("item").innerText);
+
+            if(c >= 10){
+                document.getElementById("item").innerText = "maximum limit reached";
+                
+            } else {
+                c = c + 1;
+                document.getElementById("item").innerText = c;
+            }
+        }
+
+        function decrement(){
+            let c = parseInt(document.getElementById("item").innerText);
+
+            if(c <=0){
+                document.getElementById("item").innerText = "minimum limit reached";
+            } else {
+                c = c - 1;
+                document.getElementById("item").innerText = c;
+            }
+        }
+    </script>
+</body>
+</html>
