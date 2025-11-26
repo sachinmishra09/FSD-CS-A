@@ -1,0 +1,19 @@
+{
+  "name": "sachin-mishra",
+  "version": "1.0.0",
+  "main": "\u001aserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "sachin mishra",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
