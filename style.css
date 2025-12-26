@@ -1,0 +1,33 @@
+/* class and id selector
+.div{color:red}
+
+group selector
+p,h2,h1{color}
+
+attribute selector
+input[type="email"]{border-radius:5px;}
+*/
+/* 
+adding css in html page
+1)inline   <p style="color:red"> ------------ </p>
+
+2)external 
+<link rel = "stylesheet" href="style.css">
+<link rel = "icon" href="style.css">
+
+3)internal 
+<style>
+   p{color:red}
+</style>
+
+4)imported
+@import URL('style.css')
+   h1{font-size:1rem}
+
+priority
+inline > external > internal
+
+****Box Model****
+
+
+*/
